@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/desain_tanpa_judul"
+        android:id="@+id/img_desain_tanpa_judul"
+        android:scaleType="fitXY" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/vector1"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ellipse_217"
+        android:id="@+id/img12"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/img2"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector3"
+        android:id="@+id/img3"
+        android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector4"
+        android:layout_above="@id/img3"
+        android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector6"
+        android:id="@+id/img4"
+        android:layout_above="@id/img3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="55dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector7"
+        android:id="@+id/img5"
+        android:layout_above="@id/img3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector7"
+        android:id="@+id/img6"
+        android:layout_above="@id/img3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector8"
+        android:id="@+id/img7"
+        android:layout_above="@id/img3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="3dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector9"
+        android:id="@+id/img8"
+        android:layout_above="@id/img3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="10dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector10"
+        android:id="@+id/img9"
+        android:layout_above="@id/img3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vector11"
+        android:id="@+id/img10"
+        android:layout_above="@id/img3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="45dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aqua_product"
+        android:id="@+id/img11"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/group358"
+        android:id="@+id/img12"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/kebaikan_berawal_dari_sini"
+        android:id="@+id/tekskebaikan"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="250dp"
+        android:gravity="center"
+        android:adjustViewBounds="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/terpercaya_lebih_dari_45_tahun"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="400dp" />
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="460dp"
+        android:backgroundTint="@color/white"
+        android:drawableLeft="@drawable/arrow1"
+        android:onClick="next" />
+
+
+</RelativeLayout>
