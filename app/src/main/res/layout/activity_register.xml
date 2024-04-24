@@ -45,20 +45,44 @@
         android:layout_height="wrap_content"
         android:src="@drawable/kebaikan_alam_kebaikan_hidup"
         android:id="@+id/kebaikanalam"
-        android:layout_marginLeft="85dp"
-        android:layout_marginTop="250dp"
-        android:gravity="center"
-        android:adjustViewBounds="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="390dp"
         />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="login"
+        android:background="@drawable/rectangle481"
+        app:backgroundTint="@color/blue"
+        android:layout_marginTop="260dp"/>
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/frame3669"
-        android:id="@+id/imgframe"
+        android:src="@drawable/tekslogin"
+        android:id="@+id/tekslogin"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="280dp"
-        />
+        android:layout_marginTop="290dp" />
+
+    <Button
+        android:id="@+id/btnregis"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="register"
+        android:background="@drawable/button"
+        android:layout_marginTop="340dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/teksregister"
+        android:id="@+id/img24"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="370dp" />
 
     <ImageView
         android:layout_width="wrap_content"

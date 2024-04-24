@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityRegis">
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/vek10"
+    android:id="@+id/imgvek10"
+    android:layout_marginLeft="40dp"
+    android:layout_marginTop="55dp"
+    android:onClick="vek10"
+    />
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/imgvek10"
+    android:layout_marginTop="-14dp"
+    android:src="@drawable/register"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/regisatas"
+    />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fullname"
+        android:layout_below="@id/regisatas"
+        android:id="@+id/fullnameregis"
+        />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:layout_below="@id/fullnameregis"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/kotakfullname"/>
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="25dp"
+        android:src="@drawable/org"
+        android:layout_below="@id/fullnameregis"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mail"
+        android:layout_below="@id/kotakfullname"
+        android:id="@+id/emailregis" />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:layout_below="@id/emailregis"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/kotakemailregis"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vek7"
+        android:layout_below="@id/emailregis"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pw"
+        android:layout_below="@id/kotakemailregis"
+        android:id="@+id/pwregis"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:layout_below="@id/pwregis"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/kotakpwregis"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vek4"
+        android:layout_below="@id/pwregis"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/eyepw"
+        android:layout_below="@id/pwregis"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="45dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/konfirmpw"
+        android:layout_below="@id/kotakpwregis"
+        android:id="@+id/konfirregis"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/konfirregis"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vek4"
+        android:layout_below="@id/konfirregis"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/eyepw"
+        android:layout_below="@id/konfirregis"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="45dp"
+        />
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:background="@drawable/rectangle481_shape"
+        app:backgroundTint ="@color/blue"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/klikregis"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/regis"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="125dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
