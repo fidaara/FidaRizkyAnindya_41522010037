@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScanKTP">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vektor5"
+        android:id="@+id/imgvek5"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="85dp"
+        android:onClick="vektor5"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/text_scantutupbotol"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/teksscantutupbotol"
+
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/potoprofilolivia"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="150dp"
+        android:id="@+id/potoprofilolivia"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/teks_totaltutupbotol"
+        android:layout_below="@+id/potoprofilolivia"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/teks_totaltutupbotol"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/text_scanktp"
+        android:layout_below="@+id/teks_totaltutupbotol"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:id="@+id/text_scanktp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/latarktp"
+        android:layout_below="@+id/text_scanktp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/scanktp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fotktp"
+        android:layout_below="@+id/text_scanktp"
+        android:layout_marginTop="45dp"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:background="@drawable/rectangle481_shape"
+        app:backgroundTint="@color/blue"
+        android:id="@+id/btnkliksubmit1"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/save"
+        android:layout_marginTop="665dp"
+        android:layout_marginLeft="170dp"/>
+
+    <Button
+        android:background="@drawable/button"
+        app:backgroundTint="@color/blue"
+        android:id="@+id/btnklilklogin"
+        android:layout_width="350dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="60dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tekscancel"
+        android:layout_marginTop="760dp"
+        android:layout_marginLeft="170dp"/>
+
+</RelativeLayout>

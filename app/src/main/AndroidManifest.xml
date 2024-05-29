@@ -13,6 +13,30 @@
         android:theme="@style/Theme.Tugas2login"
         tools:targetApi="31">
         <activity
+            android:name=".ExtraVaganza2"
+            android:exported="false" />
+        <activity
+            android:name=".ReedemVaganza"
+            android:exported="false" />
+        <activity
+            android:name=".ScanKTP"
+            android:exported="false" />
+        <activity
+            android:name=".HasilScanTutupBotol"
+            android:exported="false" />
+        <activity
+            android:name=".ScanTutupBotol4"
+            android:exported="false" />
+        <activity
+            android:name=".ScanTutupBotol3"
+            android:exported="false" />
+        <activity
+            android:name=".ScanTutupBotol2"
+            android:exported="false" />
+        <activity
+            android:name=".ScanTutupBotol"
+            android:exported="false" />
+        <activity
             android:name=".ActivityLayoutTB"
             android:exported="false" />
         <activity

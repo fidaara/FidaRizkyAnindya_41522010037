@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScanTutupBotol4">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vektor5"
+        android:id="@+id/imgvek5"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="85dp"
+        android:onClick="vektor5"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/text_scantutupbotol"
+        android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/teksscantutupbotol"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/potoprofilolivia"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/potoprofilolivia"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/teks_totaltutupbotol"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:id="@+id/teks_totaltutupbotol"
+        />
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/teks_setiapkali"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/teks_setiapkali"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/poto_tutupbotol"
+        android:layout_marginTop="310dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/poto_tutupbotol"/>
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/klaimtutup"
+        android:layout_marginTop="598dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <Button
+        android:background="@drawable/rectangle481_shape"
+        app:backgroundTint="@color/blue"
+        android:id="@+id/btnkliksubmit1"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/save"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="170dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:background="@drawable/button"
+        app:backgroundTint="@color/blue"
+        android:id="@+id/btnklilklogin"
+        android:layout_width="250dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tekscancel"
+        android:layout_marginTop="750dp"
+        android:layout_marginLeft="170dp"/>
+
+</RelativeLayout>

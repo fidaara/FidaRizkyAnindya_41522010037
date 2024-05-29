@@ -11,39 +11,27 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class ActivityLayoutTB extends AppCompatActivity {
+public class ScanKTP extends AppCompatActivity {
 
-    Button scanraisa;
-    Button masukreedem;
-
+    Button save;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_layout_tb);
+        setContentView(R.layout.activity_scan_ktp);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
 
-        scanraisa = findViewById(R.id.btnscanbarcode);
+        save = findViewById(R.id.btnkliksubmit1);
 
-        scanraisa.setOnClickListener(new View.OnClickListener() {
+        save.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent scanbotol = new Intent(ActivityLayoutTB.this, ScanTutupBotol.class);
-                startActivity(scanbotol);
-            }
-        });
-
-        masukreedem = findViewById(R.id.btnreedemvaganza);
-
-        masukreedem.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent pindahreedem = new Intent(ActivityLayoutTB.this, ReedemVaganza.class);
-                startActivity(pindahreedem);
+                Intent savescanktp = new Intent(ScanKTP.this, HasilScanTutupBotol.class);
+                startActivity(savescanktp);
             }
         });
     }
